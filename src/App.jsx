@@ -8,11 +8,9 @@ import EditarItem from "./pages/EditarItem";
 import "./App.css";
 
 function App() {
-  const [itens, setItens] = useState([
-    { id: 1, nome: "Caderno", quantidade: 1 },
-    { id: 2, nome: "Caneta", quantidade: 1 },
-    { id: 3, nome: "Borracha", quantidade: 1 },
-  ]);
+
+  // lista começa vazia
+  const [itens, setItens] = useState([]);
 
   function adicionarItem(nome, quantidade) {
     const nomeFormatado = nome.trim().toLowerCase();
@@ -61,6 +59,7 @@ function App() {
 
       <div className="container">
         <Routes>
+
           <Route path="/" element={<Home />} />
 
           <Route
@@ -91,6 +90,7 @@ function App() {
               />
             }
           />
+
         </Routes>
       </div>
     </BrowserRouter>
