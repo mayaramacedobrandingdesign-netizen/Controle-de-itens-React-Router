@@ -6,7 +6,7 @@ A aplicação permite adicionar itens com quantidade, visualizar a lista de iten
 
 ## Projeto online
 
-(https://crud-com-react-router.vercel.app/itens)
+https://controle-de-itens-react-router.vercel.app/
 
 ## Tecnologias utilizadas
 
