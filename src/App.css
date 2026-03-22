@@ -1,0 +1,208 @@
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.titulo-pagina {
+  font-size: 2.2rem;
+  color: #1e293b;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.mensagem-vazia {
+  font-size: 1.1rem;
+  color: #475569;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+.card-item {
+  background: #7a7a7a;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+.card-item h2 {
+  font-size: 1.9rem;
+  color: #0f172a;
+  margin-bottom: 12px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.quantidade-texto {
+  margin-bottom: 18px;
+}
+
+.quantidade-badge {
+  display: inline-block;
+  background-color: #1e293b;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.acoes-card {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  background-color: white;
+}
+
+.formulario input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.card-form {
+  max-width: 720px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.quantidade-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quantidade-box p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.controle-quantidade {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.controle-quantidade span {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0f172a;
+  min-width: 25px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+.salvar {
+  width: 100%;
+  background-color: #16a34a;
+  color: white;
+  margin-top: 5px;
+}
+
+.editar {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+.excluir {
+  background-color: #e11d48;
+  color: white;
+}
+
+.quantidade-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #23314d;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.menu {
+  background: linear-gradient(90deg, #111827, #1f2937);
+  color: white;
+  padding: 18px 24px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.links a {
+  color: #f8fafc;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.links a:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.links a.active {
+  background-color: #f59e0b;
+  color: #111827;
+}
